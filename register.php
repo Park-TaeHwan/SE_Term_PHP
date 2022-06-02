@@ -27,14 +27,14 @@ else
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Library Management System</title>
+<title>Book Management System</title>
 <link href="stylesheet.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 <div id="banner">
-<span class="head">Library Management System</span><br />
-<marquee class="clg" direction="right" behavior="alternate" scrollamount="1">TECH VEGAN</marquee>
+<span class="head">Book Management System</span><br />
+<marquee class="clg" direction="right" behavior="alternate" scrollamount="1">BMS</marquee>
 </div>
 <br />
 
@@ -43,7 +43,7 @@ else
 <br />
 <br />
 
-<span class="SubHead">Student Registration</span>
+<span class="SubHead">Registration</span>
 <br />
 <br />
 <form method="post" action="">
@@ -51,30 +51,15 @@ else
 <tr><td colspan="2" align="center" class="msg"><?php echo $msg;?></td></tr>
 <tr><td class="labels">Name : </td><td><input type="text" name="name" class="fields" placeholder="Enter Full name" required="required" size="25" /></td></tr>
 <tr><td class="labels">Email ID : </td><td><input type="email" name="email" class="fields" placeholder="Enter Email ID" required="required" size="25" /></td></tr>
-<tr><td class="labels">Sem : </td>
-<td>
-<select name="sem" class="fields" required>
-<option value="" disabled="disabled" selected="selected">- - Select Sem - -</option>
-<option value="1">First Sem</option>
-<option value="2">Second Sem</option>
-<option value="3">Third Sem</option>
-<option value="4">Fourth Sem</option>
-<option value="5">Fifth Sem</option>
-<option value="6">Sixth Sem</option>
-<option value="7">Seventh Sem</option>
-<option value="8">Eighth Sem</option>
-</select>
-</td></tr>
-
 <tr><td class="labels">Branch : </td>
 <td>
 <select name="branch" class="fields" required>
 <option value="" disabled="disabled" selected="selected">- - Select Branch - -</option>
 <option value="Computer Engineering">Computer Engineering</option>
 <option value="Electronics Engineering">Electronics Engineering</option>
-<option value="Mechanical Engineering">Mechanical Engineering</option>
-<option value="Civil Engineering">Civil Engineering</option>
-<option value="Information Technology">Information Technology</option>
+<option value="Math">Math</option>
+<option value="English">English</option>
+<option value="Programming">Programming</option>
 </select>
 </td></tr>
 <tr><td class="labels">Student ID : </td><td><input type="text" name="sid" class="fields" placeholder="Enter Student ID" required="required" size="25" /></td></tr>
@@ -90,4 +75,4 @@ else
 </div>
 </div>
 </body>
-</html><!--  Designed & Developed by Ashish Vegan | technologyvegan@gmail.com | www.ashishvegan.com | This Source Code is NOT FOR SALE-->
+</html>

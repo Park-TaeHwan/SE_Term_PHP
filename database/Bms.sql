@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `library_`
+-- Database: `Book_`
 --
 
 -- --------------------------------------------------------
@@ -102,7 +102,6 @@ CREATE TABLE IF NOT EXISTS `students` (
   `sid` varchar(255) NOT NULL,
   `name` varchar(255) NOT NULL,
   `branch` varchar(255) NOT NULL,
-  `sem` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
   PRIMARY KEY (`id`),

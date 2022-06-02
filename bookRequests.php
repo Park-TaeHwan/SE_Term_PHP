@@ -34,7 +34,7 @@ if($bn!=NULL && $au!=NULL)
 
 <body>
 <div id="banner">
-<span class="head">Library Management System</span><br />
+<span class="head">Book Management System</span><br />
 <marquee class="clg" direction="right" behavior="alternate" scrollamount="1">TECH VEGAN</marquee>
 </div>
 <br />
@@ -49,7 +49,7 @@ if($bn!=NULL && $au!=NULL)
 <br />
 
 <table border="0" class="table" cellpadding="10" cellspacing="10">
-<tr class="labels" style="text-decoration:underline;"><th>Book Name</th><th>Author</th><th>Requested by<br>(Student ID) </th></tr>
+<tr class="labels" style="text-decoration:underline;"><th>Book Name</th><th>Author</th><th>Requested by </th></tr>
 <?php
 $x=mysqli_query($set,"SELECT * FROM request");
 while($y=mysqli_fetch_array($x))
@@ -68,4 +68,4 @@ while($y=mysqli_fetch_array($x))
 </div>
 </div>
 </body>
-</html><!--  Designed & Developed by Ashish Vegan | technologyvegan@gmail.com | www.ashishvegan.com | This Source Code is NOT FOR SALE-->
+</html>
